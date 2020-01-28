@@ -21,13 +21,15 @@
 
 	.data
 U:	.asciiz 
-	" Alpha\r\n", " Bravo\r\n", " China\r\n", " Delta\r\n", " Echo\r\n", " Foxtrot\r\n", " Golf\r\n", " Hotel\r\n", " India\r\n", " Juliet\r\n", " Kilo\r\n", " Lima\r\n", " Mary\r\n", " November\r\n", " Oscar\r\n", " Paper\r\n", " Quebec\r\n", " Research\r\n", " Sierra\r\n", " Tango\r\n", " Uniform\r\n", " Victor\r\n", " Whisky\r\n", " X-ray\r\n", " Yankee\r\n", " Zulu\r\n"
+	" Alpha\r\n", " Bravo\r\n", " China\r\n", " Delta\r\n", " Echo\r\n", " Foxtrot\r\n", " Golf\r\n", " Hotel\r\n", " India\r\n", " Juliet\r\n",
+	 " Kilo\r\n", " Lima\r\n", " Mary\r\n", " November\r\n", " Oscar\r\n", " Paper\r\n", " Quebec\r\n", " Research\r\n", " Sierra\r\n", " Tango\r\n", " Uniform\r\n", " Victor\r\n", " Whisky\r\n", " X-ray\r\n", " Yankee\r\n", " Zulu\r\n"
 	.word  
 U_:	0, 9, 18, 27, 36, 44, 55, 63, 72, 81, 91, 99, 107, 115, 127, 136, 145, 155, 167, 177, 186, 197, 207, 217, 226, 236
 L:	.asciiz
-  	" alpha\r\n", " bravo\r\n", " china\r\n", " delta\r\n", " echo\r\n", " foxtrot\r\n", " golf\r\n", " hotel\r\n", " india\r\n", " juliet\r\n", " november\r\n", " oscar\r\n", " paper\r\n", " quebec\r\n", " research\r\n", " sierra\r\n", " tango\r\n", " uniform\r\n", " victor\r\n", " whisky\r\n", " kilo\r\n", " lima\r\n", " mary\r\n", " x-ray\r\n", " yankee\r\n", " zulu\r\n"
+  	" alpha\r\n", " bravo\r\n", " china\r\n", " delta\r\n", " echo\r\n", " foxtrot\r\n", " golf\r\n", " hotel\r\n", " india\r\n", " juliet\r\n", 
+  	" kilo\r\n"," lima\r\n"," mary\r\n"," november\r\n", " oscar\r\n", " paper\r\n", " quebec\r\n", " research\r\n", " sierra\r\n", " tango\r\n", " uniform\r\n", " victor\r\n", " whisky\r\n",  " x-ray\r\n", " yankee\r\n", " zulu\r\n"
 L_:	.word
-	0, 9, 18, 27, 36, 44, 55, 63, 72, 81, 91, 103, 112, 121, 131, 143, 153, 162, 173, 183, 193, 201, 209, 217, 226, 236
+	0, 9, 18, 27, 36, 44, 55, 63, 72, 81, 91, 99, 107, 115, 127, 136, 145, 155, 167, 177, 186, 197, 207, 217, 226, 236
 num:	.asciiz
 	" zero\r\n"," First\r\n"," Second\r\n"," Third\r\n", " Fourth\r\n", " Fifth\r\n", " Sixth\r\n", " Seventh\r\n", " Eighth\r\n", " Ninth\r\n"
 n_:	.word
